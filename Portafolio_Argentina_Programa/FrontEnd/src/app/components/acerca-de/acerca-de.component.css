@@ -1,0 +1,45 @@
+.row {
+    padding: 20px;
+}
+
+#acerca-de {
+    border-top: 2px solid white;
+}
+
+div {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+@media (min-width: 576px) {
+    #fotoPerfil {
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        border: 3px solid white;
+        border-radius: 100%;
+        left: 3%;
+        top: 500px;
+    }
+}
+
+@media (max-width: 576px) {
+    #fotoPerfil {
+        position: absolute;
+        width: 30%;
+        border: 3px solid white;
+        border-radius: 100%;
+        left: 35%;
+        top: 500px;
+    }
+
+    .titulos {
+        padding: 200px;
+        margin: 200px;
+    }
+}
+
+#nombre {
+    font-weight: bold;
+}

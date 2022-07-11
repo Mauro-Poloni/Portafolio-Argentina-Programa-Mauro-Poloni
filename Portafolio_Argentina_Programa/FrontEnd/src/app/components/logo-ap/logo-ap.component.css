@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes {
+    margin-right: 0.5em;
+}
+
+#logoAP {
+    width: 150px;
+}
+
+img {
+    width: 35px;
+    padding: 3px;
+}
+
+button {
+    padding: 3px;
+}
+
+@media (max-width: 575px) {
+    .container {
+        flex-direction: row;
+    }
+    
+    .redes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .redes img {
+        width: 30px;
+    }
+
+    button {
+        width: 50px;
+        font-size: 10px;
+    }
+}
